@@ -1,0 +1,39 @@
+$(document).ready(function() {
+    var cars = [
+    { id: 1, name: "SUV- Luxury", type: "suv", price: "$70/day
+    ", image: "suv.jpg" },
+    { id: 2, name: "Sedan- Comfort", type: "sedan", price: "
+    $50/day", image: "sedan.jpg" },
+    { id: 3, name: "Convertible- Style", type: "convertible",
+    price: "$100/day", image: "convertible.jpg" },
+    { id: 4, name: "SUV- Family", type: "suv", price: "$60/day
+    ", image: "suv2.jpg" },
+    { id: 5, name: "Sedan- Economy", type: "sedan", price: "
+    $40/day", image: "sedan2.jpg" },
+    ];
+    function displayCars(carsToDisplay) {
+    $(’#carList’).empty(); // Clear previous results
+    carsToDisplay.forEach(function(car) {
+    $(’#carList’).append(‘
+    <div class="car-card">
+    <img src="${car.image}" alt="${car.name}">
+    <h3>${car.name}</h3>
+    <p>${car.price}</p>
+    <button class="btn">Rent Now</button>
+    </div>
+    ‘);
+    });
+    }
+    displayCars(cars);
+    $(’#carType’).change(function() {
+    var selectedType = $(this).val();
+    if (selectedType === ’all’) {
+        displayCars(cars);
+        } else {
+        var filteredCars = cars.filter(function(car) {
+        return car.type === selectedType;
+        });
+        displayCars(filteredCars);
+        }
+        });
+        });

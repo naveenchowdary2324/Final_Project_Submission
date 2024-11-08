@@ -1,0 +1,251 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: ’Poppins’, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    }
+    a {
+    }
+    text-decoration: none;
+    color: inherit;
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    .navbar {
+    29
+   20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+    33
+    34
+    35
+    36
+    37
+    38
+    39
+    40
+    41
+    42
+    43
+    44
+    45
+    46
+    47
+    48
+    49
+    50
+    51
+    52
+    background-color: #007bff;
+    padding: 20px 0;
+    }
+    .navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    }
+    .navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    }
+    .navbar .nav-links li {
+    display: inline;
+    }
+    .navbar .nav-links li a {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+    }
+    .navbar .nav-links li a:hover {
+    color: #ffdd57;
+    }
+    .hero {
+    background: url(’hero.jpg’) no-repeat center center/cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    53
+    30
+   54
+    .hero h1 {
+    55
+    56
+    57
+    58
+    59
+    60
+    61
+    62
+    63
+    64
+    65
+    66
+    67
+    68
+    69
+    70
+    71
+    72
+    73
+    74
+    75
+    76
+    77
+    78
+    79
+    80
+    81
+    82
+    83
+    84
+    85
+    86
+    87
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    }
+    .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    }
+    .hero .btn-primary {
+    padding: 15px 30px;
+    background-color: #ffdd57;
+    color: #333;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    }
+    .hero .btn-primary:hover {
+    background-color: #ffd43b;
+    }
+    .featured-cars {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    }
+    .featured-cars h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    }
+    .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    31
+   88
+    }
+    89
+    90
+    91
+    92
+    93
+    94
+    95
+    96
+    97
+    98
+    99
+    100
+    101
+    102
+    103
+    104
+    105
+    106
+    107
+    108
+    109
+    110
+    111
+    112
+    113
+    114
+    115
+    116
+    117
+    118
+    119
+    120
+    121
+    .car-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    }
+    .car-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    }
+    .car-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    }
+    .car-card p {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    }
+    .car-card .btn-secondary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    }
+    .car-card .btn-secondary:hover {
+    background-color: #0056b3;
+    }
+    .car-card:hover {
+    transform: translateY(-10px);
+    }
+    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    }
+    footer p {
+    margin: 0;
+    }
+    .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 10px;
+    }
+    .footer-links li a {
+    color: #ffdd57;
+    transition: color 0.3s;
+    }
+    .footer-links li a:hover {
+    color: #ffd43b;
+    }

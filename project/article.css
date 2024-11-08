@@ -1,0 +1,147 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: ’Poppins’, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    }
+    a {
+    }
+    text-decoration: none;
+    color: inherit;
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    .navbar {
+        background-color: #007bff;
+        padding: 20px 0;
+        }
+        .navbar .navbar-brand {
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 600;
+        }
+        .navbar .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        }
+        .navbar .nav-links li {
+        display: inline;
+        }
+        .navbar .nav-links li a {
+        color: #fff;
+        font-weight: 500;
+        transition: color 0.3s;
+        }
+        .navbar .nav-links li a:hover {
+        color: #ffdd57;
+        }
+        .hero {
+        background: url(’hero.jpg’) no-repeat center center/cover;
+        height: 80vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            }
+            .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+            }
+            .hero .btn-primary {
+            padding: 15px 30px;
+            background-color: #ffdd57;
+            color: #333;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            }
+            .hero .btn-primary:hover {
+            background-color: #ffd43b;
+            }
+            .featured-cars {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+            }
+            .featured-cars h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            }
+            .car-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            }
+            .car-card {
+                background-color: #f9f9f9;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                transition: transform 0.3s;
+                }
+                .car-card img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                }
+                .car-card h3 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+                font-weight: 600;
+                }
+                .car-card p {
+                font-size: 1.2rem;
+                color: #007bff;
+                margin-bottom: 15px;
+                }
+                .car-card .btn-secondary {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border-radius: 50px;
+                transition: background-color 0.3s;
+                }
+                .car-card .btn-secondary:hover {
+                background-color: #0056b3;
+                }
+                .car-card:hover {
+                    transform: translateY(-10px);
+                    }
+                    footer {
+                    background-color: #333;
+                    color: white;
+                    padding: 20px 0;
+                    text-align: center;
+                    }
+                    footer p {
+                    margin: 0;
+                    }
+                    .footer-links {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    padding: 0;
+                    margin-top: 10px;
+                    }
+                    .footer-links li a {
+                    color: #ffdd57;
+                    transition: color 0.3s;
+                    }
+                    .footer-links li a:hover {
+                    color: #ffd43b;
+                    }
